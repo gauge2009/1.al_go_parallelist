@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/go/go1.16.7" />
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="253LJ05BJhJauYecfSN9drksYYV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build 2解决线程安全-原子变量.go">
+    <configuration name="go build 10线程与时间.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/多线程编程/10线程与时间.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 1.线程安全.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/线程安全/1.线程安全.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 2解决线程安全-原子变量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/线程安全/2解决线程安全-原子变量.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gauge2009_切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/多进程编程/gauge2009_切片.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gauge2009_amqp_rabbitmq_manager.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/多进程编程/gauge2009_amqp_rabbitmq_manager.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 2解决线程安全-原子变量.go" />
+        <item itemvalue="Go Build.go build 1.线程安全.go" />
+        <item itemvalue="Go Build.go build 10线程与时间.go" />
+        <item itemvalue="Go Build.go build gauge2009_amqp_rabbitmq_manager.go" />
+        <item itemvalue="Go Build.go build gauge2009_切片.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom" timestamp="1644751867800">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1644751867800" />
+    <state width="1878" height="316" key="GridCell.Tab.0.center" timestamp="1644751867798">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.center/0.23.1920.1138@0.23.1920.1138" timestamp="1644751867798" />
+    <state width="1878" height="316" key="GridCell.Tab.0.left" timestamp="1644751867797">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.left/0.23.1920.1138@0.23.1920.1138" timestamp="1644751867797" />
+    <state width="1878" height="316" key="GridCell.Tab.0.right" timestamp="1644751867799">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.right/0.23.1920.1138@0.23.1920.1138" timestamp="1644751867799" />
+    <state x="461" y="230" key="SettingsEditor" timestamp="1644751698526">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state x="461" y="230" key="SettingsEditor/0.23.1920.1138@0.23.1920.1138" timestamp="1644751698526" />
+  </component>
+</project>
