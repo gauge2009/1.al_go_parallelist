@@ -53,49 +53,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/Book1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data.compare1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data.compare2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data.expect1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak/inspect_data1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak0904/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak0904/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/bak0904/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/gauge2009_compare_spreadsheet_excel单元格差异比较.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0904-405案例AB/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0904-405案例AB/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0904-405案例AB/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0904-405案例AB/inspect_data0904-405案例A-漏打卡.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0904-405案例AB/inspect_data0904-405案例AB.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0904-405案例AB/inspect_data0904-405案例B-打卡缺对.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0905-405案例2353/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0905-405案例2353/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0905-405案例2353/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0906-405案例0034/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0906-405案例0034/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0906-405案例0034/inspect_data0904-405案例A-漏打卡.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0906-405案例0034/inspect_data0906-405案例0034.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0907-1407/inspect_data - 0907-1407.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0907-1407/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0907-1407/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0907-1407/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0907-1407/inspect_data0907-1407.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0909-1250/inspect_data - 0909-1247.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/样例/inspect_data - 0909-1247.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0909-1250/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0909-1250/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0909-1250/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/inspect_data0909-1250/inspect_data0909-1250.7z" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/样例/inspect_data0909-1250.7z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/排位-打卡缺对vs排位-漏打卡/inspect_data.compare.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/排位-打卡缺对vs排位-漏打卡/inspect_data.expect.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/排位-打卡缺对vs排位-漏打卡/inspect_data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/样例/inspect_data.compare.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/样例/inspect_data.compare.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/样例/inspect_data.expect.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/样例/inspect_data.expect.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/样例/inspect_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/样例/inspect_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程编程/4.信号.go" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/4.信号.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +98,7 @@
       <recent name="$PROJECT_DIR$/多进程编程/样例" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 2管道通信1匿名管道.go">
+  <component name="RunManager" selected="Go Build.go build 4.信号.go">
     <configuration name="go build 1.启动进程与关闭进程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
@@ -172,21 +131,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 9chan缓冲.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 4.信号.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/多线程编程/9chan缓冲.go" />
+      <filePath value="$PROJECT_DIR$/多进程编程/4.信号.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 4.信号.go" />
+        <item itemvalue="Go Build.go build 3.管道通信2命名管道.go" />
         <item itemvalue="Go Build.go build 2管道通信1匿名管道.go" />
         <item itemvalue="Go Build.go build 1.启动进程与关闭进程.go" />
         <item itemvalue="Go Build.go build 1channel.go" />
-        <item itemvalue="Go Build.go build 9chan缓冲.go" />
-        <item itemvalue="Go Build.go build 3.管道通信2命名管道.go" />
       </list>
     </recent_temporary>
   </component>
@@ -227,55 +186,55 @@
       <screen x="0" y="23" width="1920" height="1138" />
     </state>
     <state x="685" y="306" key="Github.UntrackedFilesDialog/0.23.1920.1138@0.23.1920.1138" timestamp="1644754078010" />
-    <state width="1909" height="568" key="GridCell.Tab.0.bottom" timestamp="1647138589424">
+    <state width="1512" height="527" key="GridCell.Tab.0.bottom" timestamp="1647175307168">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="316" key="GridCell.Tab.0.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220894" />
-    <state width="1909" height="568" key="GridCell.Tab.0.bottom/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647138589424" />
-    <state width="1909" height="568" key="GridCell.Tab.0.center" timestamp="1647138589424">
+    <state width="1512" height="527" key="GridCell.Tab.0.bottom/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307168" />
+    <state width="1512" height="527" key="GridCell.Tab.0.center" timestamp="1647175307167">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="316" key="GridCell.Tab.0.center/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220894" />
-    <state width="1909" height="568" key="GridCell.Tab.0.center/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647138589424" />
-    <state width="1909" height="568" key="GridCell.Tab.0.left" timestamp="1647138589423">
+    <state width="1512" height="527" key="GridCell.Tab.0.center/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307167" />
+    <state width="1512" height="527" key="GridCell.Tab.0.left" timestamp="1647175307167">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="316" key="GridCell.Tab.0.left/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220893" />
-    <state width="1909" height="568" key="GridCell.Tab.0.left/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647138589423" />
-    <state width="1909" height="568" key="GridCell.Tab.0.right" timestamp="1647138589424">
+    <state width="1512" height="527" key="GridCell.Tab.0.left/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307167" />
+    <state width="1512" height="527" key="GridCell.Tab.0.right" timestamp="1647175307168">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="316" key="GridCell.Tab.0.right/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220894" />
-    <state width="1909" height="568" key="GridCell.Tab.0.right/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647138589424" />
-    <state width="1625" height="674" key="GridCell.Tab.1.bottom" timestamp="1646548332446">
+    <state width="1512" height="527" key="GridCell.Tab.0.right/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307168" />
+    <state width="1512" height="734" key="GridCell.Tab.1.bottom" timestamp="1647175090933">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="390" key="GridCell.Tab.1.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209630" />
-    <state width="1625" height="674" key="GridCell.Tab.1.bottom/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1646548332446" />
-    <state width="1625" height="674" key="GridCell.Tab.1.center" timestamp="1646548332444">
+    <state width="1512" height="734" key="GridCell.Tab.1.bottom/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090933" />
+    <state width="1512" height="734" key="GridCell.Tab.1.center" timestamp="1647175090932">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="390" key="GridCell.Tab.1.center/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209629" />
-    <state width="1625" height="674" key="GridCell.Tab.1.center/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1646548332444" />
-    <state width="1625" height="674" key="GridCell.Tab.1.left" timestamp="1646548332443">
+    <state width="1512" height="734" key="GridCell.Tab.1.center/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090932" />
+    <state width="1512" height="734" key="GridCell.Tab.1.left" timestamp="1647175090932">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="390" key="GridCell.Tab.1.left/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209629" />
-    <state width="1625" height="674" key="GridCell.Tab.1.left/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1646548332443" />
-    <state width="1625" height="674" key="GridCell.Tab.1.right" timestamp="1646548332445">
+    <state width="1512" height="734" key="GridCell.Tab.1.left/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090932" />
+    <state width="1512" height="734" key="GridCell.Tab.1.right" timestamp="1647175090933">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
     <state width="1636" height="390" key="GridCell.Tab.1.right/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209630" />
-    <state width="1625" height="674" key="GridCell.Tab.1.right/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1646548332445" />
+    <state width="1512" height="734" key="GridCell.Tab.1.right/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090933" />
     <state x="461" y="230" key="SettingsEditor" timestamp="1646541196646">
       <screen x="0" y="23" width="1920" height="1136" />
     </state>
     <state x="461" y="230" key="SettingsEditor/0.23.1920.1136@0.23.1920.1136" timestamp="1646541196646" />
     <state x="461" y="230" key="SettingsEditor/0.23.1920.1138@0.23.1920.1138" timestamp="1644751698526" />
-    <state x="2382" y="207" key="Vcs.Push.Dialog.v2" timestamp="1647138961612">
+    <state x="2382" y="207" key="Vcs.Push.Dialog.v2" timestamp="1647139123938">
       <screen x="1920" y="-588" width="3840" height="2137" />
     </state>
-    <state x="2382" y="207" key="Vcs.Push.Dialog.v2/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647138961612" />
+    <state x="2382" y="207" key="Vcs.Push.Dialog.v2/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647139123938" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -314,6 +273,16 @@
           <url>file://$PROJECT_DIR$/多进程编程/2管道通信1匿名管道.go</url>
           <line>136</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/多进程编程/4.信号.go</url>
+          <line>94</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/多进程编程/4.信号.go</url>
+          <line>103</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
