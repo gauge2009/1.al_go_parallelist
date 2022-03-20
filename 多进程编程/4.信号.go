@@ -145,6 +145,8 @@ func SendSingal() {
 
 //tasklist,ipconfig
 func HandleSingal() {
+
+	///☎☎☎☎☎  接收者进程使用了两个信道（os.Signal）,并使用 signal.Notify(sigRecv1, sigs1...)  发送 操作系统信号，
 	//处理接收信号
 	sigRecv1 := make(chan os.Signal, 1)                   //创建管道
 	sigs1 := []os.Signal{syscall.SIGINT, syscall.SIGQUIT} //信号
@@ -156,6 +158,7 @@ func HandleSingal() {
 	fmt.Println("sig2", sigs2)
 	signal.Notify(sigRecv2, sigs2...)
 
+	///☎☎☎☎☎ 然后操作两个协程 等待信道接收消息
 	var wg sync.WaitGroup
 	wg.Add(2) //等待两个
 	go func() {
@@ -172,6 +175,8 @@ func HandleSingal() {
 		fmt.Println("☎☎☎☎☎ Rece2", "over")
 		wg.Done()
 	}()
+
+	///最后在 25 秒 和 26 秒后close(sigRecv1) //关闭管道关闭两个信道
 	fmt.Println("wait for 25 seconds")
 	time.Sleep(time.Second * 25)
 	fmt.Println("stop  Notify")

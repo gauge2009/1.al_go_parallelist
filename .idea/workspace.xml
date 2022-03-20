@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -52,16 +55,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="">
+    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/多进程编程/4.信号.go" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/4.信号.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程编程/5.socket通信.go" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/5.socket通信.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" path="$USER_HOME$/go/go1.16.7" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.16.7" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -71,6 +75,9 @@
         <option value="file://$PROJECT_DIR$" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="253LJ05BJhJauYecfSN9drksYYV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,12 +91,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable..is.expanded" value="true" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
@@ -98,54 +108,73 @@
       <recent name="$PROJECT_DIR$/多进程编程/样例" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 4.信号.go">
+  <component name="RunManager" selected="Go Build.go build 5.socket通信.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 1.启动进程与关闭进程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/多进程编程/1.启动进程与关闭进程.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="1.al_go_parallelist" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/多线程编程/1channel.go" />
-      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build 2管道通信1匿名管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/多进程编程/2管道通信1匿名管道.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/多进程编程/2管道通信1匿名管道.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 3.管道通信2命名管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/多进程编程/3.管道通信2命名管道.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/多进程编程/3.管道通信2命名管道.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 4.信号.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/多进程编程/4.信号.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/多进程编程/4.信号.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 5.socket通信.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/多进程编程/5.socket通信.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 5.socket通信.go" />
         <item itemvalue="Go Build.go build 4.信号.go" />
         <item itemvalue="Go Build.go build 3.管道通信2命名管道.go" />
         <item itemvalue="Go Build.go build 2管道通信1匿名管道.go" />
         <item itemvalue="Go Build.go build 1.启动进程与关闭进程.go" />
-        <item itemvalue="Go Build.go build 1channel.go" />
       </list>
     </recent_temporary>
   </component>
@@ -163,79 +192,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes())" />
     <MESSAGE value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）" />
     <option name="LAST_COMMIT_MESSAGE" value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="760" y="432" key="#Go_Modules" timestamp="1644754230451">
-      <screen x="0" y="23" width="1920" height="1138" />
-    </state>
-    <state x="760" y="432" key="#Go_Modules/0.23.1920.1138@0.23.1920.1138" timestamp="1644754230451" />
-    <state x="624" y="216" key="CommitChangelistDialog2" timestamp="1644754384064">
-      <screen x="0" y="23" width="1920" height="1138" />
-    </state>
-    <state x="624" y="216" key="CommitChangelistDialog2/0.23.1920.1138@0.23.1920.1138" timestamp="1644754384064" />
-    <state x="804" y="496" key="Github.ShareDialog" timestamp="1644754069879">
-      <screen x="0" y="23" width="1920" height="1138" />
-    </state>
-    <state x="804" y="496" key="Github.ShareDialog/0.23.1920.1138@0.23.1920.1138" timestamp="1644754069879" />
-    <state x="685" y="306" key="Github.UntrackedFilesDialog" timestamp="1644754078010">
-      <screen x="0" y="23" width="1920" height="1138" />
-    </state>
-    <state x="685" y="306" key="Github.UntrackedFilesDialog/0.23.1920.1138@0.23.1920.1138" timestamp="1644754078010" />
-    <state width="1512" height="527" key="GridCell.Tab.0.bottom" timestamp="1647175307168">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="316" key="GridCell.Tab.0.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220894" />
-    <state width="1512" height="527" key="GridCell.Tab.0.bottom/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307168" />
-    <state width="1512" height="527" key="GridCell.Tab.0.center" timestamp="1647175307167">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="316" key="GridCell.Tab.0.center/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220894" />
-    <state width="1512" height="527" key="GridCell.Tab.0.center/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307167" />
-    <state width="1512" height="527" key="GridCell.Tab.0.left" timestamp="1647175307167">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="316" key="GridCell.Tab.0.left/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220893" />
-    <state width="1512" height="527" key="GridCell.Tab.0.left/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307167" />
-    <state width="1512" height="527" key="GridCell.Tab.0.right" timestamp="1647175307168">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="316" key="GridCell.Tab.0.right/0.23.1920.1138@0.23.1920.1138" timestamp="1644755220894" />
-    <state width="1512" height="527" key="GridCell.Tab.0.right/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175307168" />
-    <state width="1512" height="734" key="GridCell.Tab.1.bottom" timestamp="1647175090933">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="390" key="GridCell.Tab.1.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209630" />
-    <state width="1512" height="734" key="GridCell.Tab.1.bottom/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090933" />
-    <state width="1512" height="734" key="GridCell.Tab.1.center" timestamp="1647175090932">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="390" key="GridCell.Tab.1.center/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209629" />
-    <state width="1512" height="734" key="GridCell.Tab.1.center/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090932" />
-    <state width="1512" height="734" key="GridCell.Tab.1.left" timestamp="1647175090932">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="390" key="GridCell.Tab.1.left/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209629" />
-    <state width="1512" height="734" key="GridCell.Tab.1.left/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090932" />
-    <state width="1512" height="734" key="GridCell.Tab.1.right" timestamp="1647175090933">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state width="1636" height="390" key="GridCell.Tab.1.right/0.23.1920.1138@0.23.1920.1138" timestamp="1644755209630" />
-    <state width="1512" height="734" key="GridCell.Tab.1.right/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175090933" />
-    <state x="461" y="230" key="SettingsEditor" timestamp="1646541196646">
-      <screen x="0" y="23" width="1920" height="1136" />
-    </state>
-    <state x="461" y="230" key="SettingsEditor/0.23.1920.1136@0.23.1920.1136" timestamp="1646541196646" />
-    <state x="461" y="230" key="SettingsEditor/0.23.1920.1138@0.23.1920.1138" timestamp="1644751698526" />
-    <state x="2382" y="207" key="Vcs.Push.Dialog.v2" timestamp="1647175655691">
-      <screen x="1920" y="-588" width="3840" height="2137" />
-    </state>
-    <state x="2382" y="207" key="Vcs.Push.Dialog.v2/1920.-588.3840.2137/0.23.1920.1136@1920.-588.3840.2137" timestamp="1647175655691" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
