@@ -55,11 +55,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/4.信号.go" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/4.信号.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程编程/5.socket通信.go" beforeDir="false" afterPath="$PROJECT_DIR$/多进程编程/5.socket通信.go" afterDir="false" />
-    </list>
+    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）&#10;&#10;8.go-parallelist-(1-元春)-多进程编程2-实现进程间的tcp通讯—手写网络服务器-分布式通信框架-22-3-19" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -196,7 +191,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes())" />
     <MESSAGE value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）" />
+    <MESSAGE value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）&#10;&#10;go-parallelist-(1-元春)-多进程编程2-实现进程间的tcp通讯—手写网络服务器-分布式通信框架-22-3-19" />
+    <MESSAGE value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）&#10;&#10;8.go-parallelist-(1-元春)-多进程编程2-实现进程间的tcp通讯—手写网络服务器-分布式通信框架-22-3-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）&#10;&#10;8.go-parallelist-(1-元春)-多进程编程2-实现进程间的tcp通讯—手写网络服务器-分布式通信框架-22-3-19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
