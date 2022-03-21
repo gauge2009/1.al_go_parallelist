@@ -55,13 +55,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）&#10;&#10;8.go-parallelist-(1-元春)-多进程编程2-实现进程间的tcp通讯—手写网络服务器-分布式通信框架-22-3-19" />
+    <list default="true" id="b05377a4-3000-4e7c-8274-7173de3dda45" name="Default Changelist" comment="&#10;3、4、5、6&#10;第三层的写法过于冗长， 我们简化一下：&#10;简化思路： 从 cmd 的输出管道 直连 缓冲区 bytes.Buffer后，你.Bytes()一下就有了二进制， 把这个二进制字节数组传递给 file.Write 就实现了cmd 输出写入文件的诉求：&#10;&#10;&#10;第四层： 将 cmd输出写入文件  Stdout-&gt;bytes.Buffer--&gt;file.Write(ouputbuf1.Bytes()) &#10; &#10;第五层：  用内存/系统的命名管道实现进程通信~os.Pipe() ~ 基于操作系统文件思维  22-3-13&#10;&#10;7.实现进程的信号通信 &#10;（2022 年 3 月 13 日 成功基于proc.Signal(sig)向指定 pid发送信号关闭了印象笔记 ）&#10;&#10;8.go-parallelist-(1-元春)-多进程编程2-实现进程间的tcp通讯—手写网络服务器-分布式通信框架-22-3-19">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多线程编程/3.channelval.go" beforeDir="false" afterPath="$PROJECT_DIR$/多线程编程/3.channelval.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/go/go1.16.7" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,6 +87,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="true" />
@@ -96,45 +100,29 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/多线程编程" />
       <recent name="$PROJECT_DIR$/多进程编程/样例" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 5.socket通信.go">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+  <component name="RunManager" selected="Go Build.go build 3.channelval.go">
+    <configuration name="go build 1channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/多线程编程/1channel.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 1.启动进程与关闭进程.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 3.channelval.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/多进程编程/1.启动进程与关闭进程.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 2管道通信1匿名管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="1.al_go_parallelist" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/多进程编程/2管道通信1匿名管道.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 3.管道通信2命名管道.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="1.al_go_parallelist" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/多进程编程/3.管道通信2命名管道.go" />
+      <filePath value="$PROJECT_DIR$/多线程编程/3.channelval.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 4.信号.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -145,6 +133,14 @@
       <filePath value="$PROJECT_DIR$/多进程编程/4.信号.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 4.channel计数器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="1.al_go_parallelist" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/多线程编程/4.channel计数器.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 5.socket通信.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="1.al_go_parallelist" />
       <working_directory value="$PROJECT_DIR$" />
@@ -153,23 +149,13 @@
       <filePath value="$PROJECT_DIR$/多进程编程/5.socket通信.go" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="1.al_go_parallelist" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 3.channelval.go" />
+        <item itemvalue="Go Build.go build 4.channel计数器.go" />
+        <item itemvalue="Go Build.go build 1channel.go" />
         <item itemvalue="Go Build.go build 5.socket通信.go" />
         <item itemvalue="Go Build.go build 4.信号.go" />
-        <item itemvalue="Go Build.go build 3.管道通信2命名管道.go" />
-        <item itemvalue="Go Build.go build 2管道通信1匿名管道.go" />
-        <item itemvalue="Go Build.go build 1.启动进程与关闭进程.go" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +228,11 @@
           <url>file://$PROJECT_DIR$/多进程编程/4.信号.go</url>
           <line>100</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/多线程编程/3.channelval.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
